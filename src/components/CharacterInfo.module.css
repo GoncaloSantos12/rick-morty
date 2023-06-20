@@ -1,0 +1,43 @@
+.container {
+  max-width: 40rem;
+  margin: 2.5rem auto;
+  padding: 1rem;
+  border: 0.15rem solid var(--color-radius);
+  border-radius: 0.5rem;
+  display: flex;
+  align-items: center;
+  background-color: var(--card-color);
+  box-sizing: border-box;
+  overflow: hidden;
+  box-shadow: 0 0.2rem 0.4rem var(--color-radius);
+}
+
+.image {
+  margin-right: 8rem;
+  width: 16rem;
+  height: 16rem;
+  border-radius: 50%;
+  background-size: cover;
+  background-position: center;
+}
+
+.content {
+  flex-grow: 1;
+}
+
+.name {
+  font-family: 'Prompt', sans-serif;
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.info {
+  font-family: 'Prompt', sans-serif;
+  font-size: 1rem;
+  margin-bottom: 1rem;
+}
+
+.info span {
+  display: block;
+  margin-bottom: 0.5rem;
+}

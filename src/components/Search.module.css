@@ -1,0 +1,24 @@
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 2rem;
+    font-family: 'Prompt', sans-serif;
+}
+
+.total {
+    font-size: 1.25rem;
+
+}
+
+.form input {
+    background: transparent;
+    border: 0.150rem solid var(--color);
+    font-family: 'Prompt', sans-serif;
+    padding: .25rem .5rem;
+
+}
+
+.form input::placeholder {
+    color: var(--color);
+}
